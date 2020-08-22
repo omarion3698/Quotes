@@ -8,8 +8,8 @@ This is an Angular application that allows user to see quotes, Up vote quotes , 
 
 ## Live Page
 
- https://omarion3698.github.io/Quotes/
- 
+omarion3698.github.io/quotes/.
+
 ## Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
@@ -44,7 +44,7 @@ Open Terminal using {Ctrl+Alt+T}
 
 Make directory to work on using {mkdir Quotes}
 
-git clone my repository https://github.com/omarion3698/Quotes.git
+git clone my repository omarion3698.github.io/quotes/.
 
 cd Quotes-app
 

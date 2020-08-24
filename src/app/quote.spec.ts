@@ -1,7 +1,7 @@
-import { Quotes } from './quote';
+import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 
-describe('Quote', () => {
+describe('Quotes', () => {
   it('should create an instance', () => {
-    expect(new Quotes()).toBeTruthy();
+    expect(new QuotesFormComponent()).toBeTruthy();
   });
 });

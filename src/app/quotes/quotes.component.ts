@@ -9,12 +9,12 @@ import { Quote } from '../quote';
 export class QuotesComponent implements OnInit {
   title = 'welcome to tech quotes';
   quotes:Quote[] = [
-    new Quote (1,'Amimo','Human spirit','The human spirit must prevail over technology to allow humans be in charge.','Albert Einstein', new Date(2019,7,12),0,0),
-    new Quote (2,'Abdul','Technology…','Technology… the knack of so arranging  that we don’t have to experience it.','Max Frisch',new Date(2019,7,14),0,0),
-    new Quote (3,'Trevor','The great myth','The great myth of our times is that technology is communication.','Libby Larsen',new Date(2019,6,3),0,0),
-    new Quote (4,'Vallary','Communication','Communications tools don’t get socially interesting until they get technologically boring.','Clay Shirky',new Date(2019,7,7),0,0),
-    new Quote (5,'Mohamed','Code and people','Programs must be written for people to read, and only incidentally for machines to execute.','Harold Abelson',new Date(2019,7,17),0,0),
-    new Quote (6,'Omar','Tech and life','For a list of all the ways technology has failed to improve the quality of life, please press three.','Alice Kahn',new Date(2019,7,15),0,0)
+    new Quote (1,'Amimo','Success','Success is not final, failure is not fatal: it is the courage to continue that counts.', 'Winston Churchill', new Date(2019,7,12),0,0),
+    new Quote (2,'Abdul','Courage','Never bend your head. Always hold it high. Look the world straight in the eye.', 'Helen Keller', new Date(2019,7,14),0,0),
+    new Quote (3,'Trevor','Believe you can do it.','Believe you can and you are halfway there.', 'Theodore Roosevelt', new Date(2019,6,3),0,0),
+    new Quote (4,'Vallary','Dreams','When you have a dream, you have got to grab it and never let go.', 'Clay Shirky', new Date(2019,7,7),0,0),
+    new Quote (5,'Mohamed','Code and people','Programs must be written for people to read, and only incidentally for machines to execute.', 'Harold Abelson', new Date(2019,7,17),0,0),
+    new Quote (6,'Omar','Technology and life','I can not change the direction of the wind, but I can adjust my sails to always reach my destination.', 'Jimmy Dean', new Date(2019,7,15),0,0)
   ];
   get sortQuotes() {
     return this.quotes.sort((a, b) => {

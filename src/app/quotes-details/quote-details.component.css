@@ -13,7 +13,7 @@
 }
 .hate{
   margin-left: 10px;
-  background-color: brown;
+  background-color: rgb(255, 255, 255);
   color: white;
 }
 hr{
@@ -25,5 +25,5 @@ hr{
 }
 #when{
   float:right;
-  font-family: 'Handlee', cursive;
+  font-family: sans-serif;
 }
